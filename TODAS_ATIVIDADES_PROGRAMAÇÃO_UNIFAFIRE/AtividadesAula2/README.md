@@ -30,7 +30,7 @@ Este repositório contém exercícios de lógica de programação, matemática c
 │── 📜 README.md
 
 
-📬 Contato
+📬 Contato 
 Se quiser trocar ideias, entre em contato comigo!
 📧 Email: wesley202510162@grad.unifafire.edu.br
 🔗 LinkedIn: https://www.linkedin.com/in/wesley-luiz-7a791b24b/
