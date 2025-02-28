@@ -14,5 +14,6 @@ else:
     
     devedor = prestacoes_pagas * prestacao_atual
 
+#Imprimindo...
 print (f"O valor devedor faltante é: {devedor:.2f}")
 print (f"O valor de prestações faltante é: {prestacoes_apagar}")
