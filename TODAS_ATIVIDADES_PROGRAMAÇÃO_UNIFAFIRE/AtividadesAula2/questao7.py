@@ -1,25 +1,15 @@
-#Quantidade de KM inicial da viagem
+#Pedindo KM Inicial, final, litros consumidos e preço
 km_inicial = int(input("Qual a quantidade de KM inicial? "))
-
-#Quantidade de KM final da viagem
 km_final = int(input("Qual a quantidade de KM final? "))
-
-#Quantidade de litros que foram consumidos durante a viagem
 litro_consumidos = float(input("Quantos litros foram consumidos? "))
-
-#Quantidade, em REAL, do preço do litro do combustível
 preco_litro = float(input("Qual o preço do litro do combustível? R$"))
 
-#Calculos da distância total percorrida
-distancia = km_final - km_inicial
+#Calculos
+distancia = km_final - km_inicial #Calculando a distância em KM
+valor_gasto = litro_consumidos * preco_litro #Calculando os gatos de litros
+consumo_carro = distancia / litro_consumidos #Calculando o consumo do carro
 
-#Calculo para saber o gasto total 
-valor_gasto = litro_consumidos * preco_litro
-
-#Calculo para saber o consumo total do carro em KM
-consumo_carro = distancia / litro_consumidos
-
-#Imprimindo
+#Imprimindo relatório da viagem
 print(f"\nRelatório da Viagem:")
 print(f"- Distância percorrida: {distancia:.2f} km")
 print(f"- Valor total de gastos: R$ {valor_gasto:.2f}")

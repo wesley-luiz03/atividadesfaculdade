@@ -36,6 +36,6 @@ Se quiser trocar ideias, entre em contato comigo!
 🔗 LinkedIn: https://www.linkedin.com/in/wesley-luiz-7a791b24b/
 
 
-
+Obrigado pela paciência!
 
 
